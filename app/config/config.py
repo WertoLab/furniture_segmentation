@@ -5,7 +5,7 @@ from typing import List
 
 
 class AppConfig(BaseModel):
-    PROJECT_NAME: str = 'text-to-sql'
+    PROJECT_NAME: str = 'Furniture Segmentation Service'
     VERSION: str = '0.1.0'
     DOCS_URL: str = '/docs'
     OPENAPI_URL: str = '/openapi.json'
