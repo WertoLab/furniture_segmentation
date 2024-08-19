@@ -11,12 +11,12 @@ IoU score на тестовой выборке составляет 0,62
 ## Инструкция для установки
 ### 1) Склонить репозиторий
 ```bash
-git clone https://github.com/WertoLab/Crypto_test_task.git
+git clone https://github.com/WertoLab/furniture_segmentation.git
 ```
 
 ### 2) Войти в директорию
 ```bash
-cd furniture-segmentation
+cd furniture_segmentation
 ```
 
 ### 3) Установить все зависимости
