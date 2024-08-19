@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "furniture-segmentation"
+version = "0.1.0"
+description = "Furniture segmentation project"
+authors = ["Andrey Lemanov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.10.0.84"
+numpy = "^2.0.1"
+roboflow = "^1.1.40"
+pillow = "^10.4.0"
+imutils = "^0.5.4"
+fastapi = "^0.112.1"
+pydantic = "^2.8.2"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  server:
+    container_name: "furniture-segmentation"
+    build: .
+    ports:
+      - "8000:8080"
+
+
+
+
